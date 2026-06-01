@@ -134,6 +134,27 @@ _autosave-*
 *.zip
 ```
 
+本プロジェクトでは，自作シンボルおよび自作フットプリントを `kicad_my_library` リポジトリで管理している．  
+KiCadで本プロジェクトを開く前に，`kicad_my_library` をcloneし，KiCadのライブラリ設定に登録する必要がある．
+
+```powershell
+git clone https://github.com/Cream-Pan/kicad_my_library.git
+
+登録するライブラリは以下である．
+
+Footprint Library:
+kicad_my_library/footprints/MyLibrary.pretty
+
+Symbol Library:
+kicad_my_library/symbols/MyLibrary.kicad_sym
+
+KiCad上でのライブラリNicknameは以下に統一する．
+
+MyLibrary
+
+Nicknameを変更すると，MyLibrary:C0603 のような既存の参照が壊れる可能性がある．
+
+
 発注時点の製造データを残す場合は，必要に応じてGitHub Releasesや別フォルダで管理する．
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
