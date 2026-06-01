@@ -1,0 +1,28 @@
+﻿# KiCad local settings
+*.kicad_prl
+fp-info-cache
+
+# KiCad backups / autosaves
+*-backups/
+*_backups/
+*.bak
+*-bak
+_autosave-*
+*.lck
+
+# Fabrication outputs
+*.gbr
+*.drl
+*.pos
+*.rpt
+*.zip
+
+# Temporary files
+*.tmp
+*.net
+
+# OS files
+Thumbs.db
+.DS_Store
+
+.history/
