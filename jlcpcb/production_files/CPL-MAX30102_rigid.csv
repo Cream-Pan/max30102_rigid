@@ -1,0 +1,19 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,4.7μ,C0603,119.15,-91.95,270,bottom
+C2,4.7μ,C0603,126,-86.1,0,top
+C3,4.7μ,C0603,116.55,-86.1,0,bottom
+C4,0.1μ,C_0402_1005Metric,121.95,-86.45,180,top
+C5,10μ,C0603,116.65,-88,180,top
+C6,0.1μ,C_0402_1005Metric,118.95,-86.35,90,top
+C7,0.1μ,C_0402_1005Metric,127.1,-92.38,270,bottom
+C8,0.1μ,C_0402_1005Metric,121.25,-92.65,-90,top
+FPC1,~,FPC-SMD_AFC07-S05FCC-00,122.5,-88.471,180,bottom
+R1,4.7k,R_0402_1005Metric,123.75,-92.3,-90,top
+R2,4.7k,R_0402_1005Metric,120.25,-92.25,90,top
+R3,4.7k,R_0402_1005Metric,120.4,-86.2,-90,top
+R4,4.7k,R_0402_1005Metric,126.65,-90.9,180,bottom
+R5,4.7k,R_0402_1005Metric,127.25,-87.85,90,bottom
+R6,4.7k,R_0402_1005Metric,127.45,-89.65,0,bottom
+U1,MAX30102,Maxim_OLGA-14_3.3x5.6mm_P0.8mm,121.9,-89.3,90,top
+U2,~,SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL,116.55,-91.7,270,bottom
+U3,~,MICROPARK_L1.6-W1.6-P0.50-BL-1,122.95,-92.3,180,bottom
